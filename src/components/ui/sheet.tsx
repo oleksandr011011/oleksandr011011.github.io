@@ -65,15 +65,6 @@ function SheetContent({
         {...props}
       >
         {children}
-        <SheetPrimitive.Close
-          className="absolute top-4 right-4 flex items-center justify-center w-8 h-8 rounded-xs
-             opacity-70 transition-opacity hover:opacity-100
-             focus:ring-2 focus:ring-ring focus:ring-offset-2 focus:outline-hidden
-             disabled:pointer-events-none cursor-pointer"
-        >
-          <CloseIcon />
-          <span className="sr-only">Close</span>
-        </SheetPrimitive.Close>
       </SheetPrimitive.Content>
     </SheetPortal>
   );
